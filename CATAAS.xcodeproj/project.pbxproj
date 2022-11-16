@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		BE6864112924518B00D28D49 /* CATAASApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6864102924518B00D28D49 /* CATAASApp.swift */; };
-		BE6864132924518B00D28D49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6864122924518B00D28D49 /* ContentView.swift */; };
 		BE6864152924518D00D28D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6864142924518D00D28D49 /* Assets.xcassets */; };
 		BE6864182924518D00D28D49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6864172924518D00D28D49 /* Preview Assets.xcassets */; };
+		BE6864252924572500D28D49 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6864242924572500D28D49 /* APIService.swift */; };
+		BE6864292924574100D28D49 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6864282924574100D28D49 /* APIClient.swift */; };
+		BE68642D2924576800D28D49 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE68642C2924576800D28D49 /* Cat.swift */; };
+		BE68642F2924577E00D28D49 /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE68642E2924577E00D28D49 /* CatViewModel.swift */; };
+		BE6864312924578600D28D49 /* CatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6864302924578600D28D49 /* CatView.swift */; };
+		BE6864332924579000D28D49 /* CatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6864322924579000D28D49 /* CatsViewModel.swift */; };
+		BE6864352924579900D28D49 /* CatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6864342924579800D28D49 /* CatsView.swift */; };
+		BE6864372924637000D28D49 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6864362924637000D28D49 /* ImageLoader.swift */; };
+		BE6864392924954600D28D49 /* CatPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6864382924954600D28D49 /* CatPresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE68640D2924518B00D28D49 /* CATAAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATAAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6864102924518B00D28D49 /* CATAASApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATAASApp.swift; sourceTree = "<group>"; };
-		BE6864122924518B00D28D49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE6864142924518D00D28D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE6864172924518D00D28D49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE6864242924572500D28D49 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		BE6864282924574100D28D49 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		BE68642C2924576800D28D49 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		BE68642E2924577E00D28D49 /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
+		BE6864302924578600D28D49 /* CatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatView.swift; sourceTree = "<group>"; };
+		BE6864322924579000D28D49 /* CatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewModel.swift; sourceTree = "<group>"; };
+		BE6864342924579800D28D49 /* CatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsView.swift; sourceTree = "<group>"; };
+		BE6864362924637000D28D49 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = ../../../../../../../.Trash/CATAAS/CATAAS/Networking/ImageLoader.swift; sourceTree = "<group>"; };
+		BE6864382924954600D28D49 /* CatPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatPresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +67,12 @@
 		BE68640F2924518B00D28D49 /* CATAAS */ = {
 			isa = PBXGroup;
 			children = (
-				BE6864102924518B00D28D49 /* CATAASApp.swift */,
-				BE6864122924518B00D28D49 /* ContentView.swift */,
-				BE6864142924518D00D28D49 /* Assets.xcassets */,
+				BE6864232924570600D28D49 /* App */,
+				BE6864222924570000D28D49 /* Views */,
+				BE686421292456F600D28D49 /* Models */,
+				BE686420292456ED00D28D49 /* Protocols */,
+				BE68641F292456E700D28D49 /* Resources */,
+				BE68641E292456DA00D28D49 /* Networking */,
 				BE6864162924518D00D28D49 /* Preview Content */,
 			);
 			path = CATAAS;
@@ -65,6 +84,59 @@
 				BE6864172924518D00D28D49 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE68641E292456DA00D28D49 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BE6864242924572500D28D49 /* APIService.swift */,
+				BE6864282924574100D28D49 /* APIClient.swift */,
+				BE6864362924637000D28D49 /* ImageLoader.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BE68641F292456E700D28D49 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE6864142924518D00D28D49 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE686420292456ED00D28D49 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BE6864382924954600D28D49 /* CatPresentable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BE686421292456F600D28D49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BE68642C2924576800D28D49 /* Cat.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE6864222924570000D28D49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE6864302924578600D28D49 /* CatView.swift */,
+				BE68642E2924577E00D28D49 /* CatViewModel.swift */,
+				BE6864342924579800D28D49 /* CatsView.swift */,
+				BE6864322924579000D28D49 /* CatsViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BE6864232924570600D28D49 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BE6864102924518B00D28D49 /* CATAASApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +209,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6864132924518B00D28D49 /* ContentView.swift in Sources */,
+				BE68642F2924577E00D28D49 /* CatViewModel.swift in Sources */,
+				BE6864372924637000D28D49 /* ImageLoader.swift in Sources */,
+				BE6864312924578600D28D49 /* CatView.swift in Sources */,
+				BE6864332924579000D28D49 /* CatsViewModel.swift in Sources */,
+				BE68642D2924576800D28D49 /* Cat.swift in Sources */,
+				BE6864292924574100D28D49 /* APIClient.swift in Sources */,
 				BE6864112924518B00D28D49 /* CATAASApp.swift in Sources */,
+				BE6864252924572500D28D49 /* APIService.swift in Sources */,
+				BE6864392924954600D28D49 /* CatPresentable.swift in Sources */,
+				BE6864352924579900D28D49 /* CatsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

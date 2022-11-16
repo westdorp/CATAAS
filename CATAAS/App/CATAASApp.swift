@@ -11,7 +11,11 @@ import SwiftUI
 struct CATAASApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CatsView(
+                viewModel: .init(
+                    apiService: APIClient()
+                )
+            )
         }
     }
 }
