@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE37EB0A293693C700BE7346 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37EB09293693C700BE7346 /* ImageLoader.swift */; };
 		BE6864112924518B00D28D49 /* CATAASApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6864102924518B00D28D49 /* CATAASApp.swift */; };
 		BE6864152924518D00D28D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6864142924518D00D28D49 /* Assets.xcassets */; };
 		BE6864182924518D00D28D49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6864172924518D00D28D49 /* Preview Assets.xcassets */; };
@@ -17,11 +18,11 @@
 		BE6864312924578600D28D49 /* CatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6864302924578600D28D49 /* CatView.swift */; };
 		BE6864332924579000D28D49 /* CatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6864322924579000D28D49 /* CatsViewModel.swift */; };
 		BE6864352924579900D28D49 /* CatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6864342924579800D28D49 /* CatsView.swift */; };
-		BE6864372924637000D28D49 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6864362924637000D28D49 /* ImageLoader.swift */; };
 		BE6864392924954600D28D49 /* CatPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6864382924954600D28D49 /* CatPresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE37EB09293693C700BE7346 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		BE68640D2924518B00D28D49 /* CATAAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATAAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6864102924518B00D28D49 /* CATAASApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATAASApp.swift; sourceTree = "<group>"; };
 		BE6864142924518D00D28D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		BE6864302924578600D28D49 /* CatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatView.swift; sourceTree = "<group>"; };
 		BE6864322924579000D28D49 /* CatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewModel.swift; sourceTree = "<group>"; };
 		BE6864342924579800D28D49 /* CatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsView.swift; sourceTree = "<group>"; };
-		BE6864362924637000D28D49 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = ../../../../../../../.Trash/CATAAS/CATAAS/Networking/ImageLoader.swift; sourceTree = "<group>"; };
 		BE6864382924954600D28D49 /* CatPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatPresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +91,7 @@
 			children = (
 				BE6864242924572500D28D49 /* APIService.swift */,
 				BE6864282924574100D28D49 /* APIClient.swift */,
-				BE6864362924637000D28D49 /* ImageLoader.swift */,
+				BE37EB09293693C700BE7346 /* ImageLoader.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -210,10 +210,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE68642F2924577E00D28D49 /* CatViewModel.swift in Sources */,
-				BE6864372924637000D28D49 /* ImageLoader.swift in Sources */,
 				BE6864312924578600D28D49 /* CatView.swift in Sources */,
 				BE6864332924579000D28D49 /* CatsViewModel.swift in Sources */,
 				BE68642D2924576800D28D49 /* Cat.swift in Sources */,
+				BE37EB0A293693C700BE7346 /* ImageLoader.swift in Sources */,
 				BE6864292924574100D28D49 /* APIClient.swift in Sources */,
 				BE6864112924518B00D28D49 /* CATAASApp.swift in Sources */,
 				BE6864252924572500D28D49 /* APIService.swift in Sources */,

@@ -16,7 +16,7 @@ struct CatView: View {
     var body: some View {
         Color(UIColor.secondarySystemBackground)
             .aspectRatio(1, contentMode: .fit)
-            .overlay{
+            .overlay {
                 switch loader.state {
                 case .inProgress, .idle:
                     ProgressView()
